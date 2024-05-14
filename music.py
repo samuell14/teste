@@ -3,11 +3,12 @@ musicas = [
     ("Música 2", "Pop"),
     ("Música 3", "Jazz"),
     ("Música 4", "Rock"),
-    ("Música 5", "Pop")
+    ("Música 5", "Pop"),
 ]
 
 # Histórico de músicas ouvidas pelo usuário
 historico_usuario = ["Rock", "Jazz", "Pop", "Jazz", "Pop"]
+
 
 # Função para recomendar músicas
 def recomendar_musica(historico):
@@ -29,7 +30,7 @@ def recomendar_musica(historico):
             recomendacoes.append(titulo)
     return recomendacoes
 
+
 # Obter recomendações para o usuário
-    if recomendacoes_usuario = recomendar_musica(historico_usuario)
-        print("Músicas recomendadas:", recomendacoes_usuario)
-    
+recomendacoes_usuario = recomendar_musica(historico_usuario)
+print("Músicas recomendadas:", recomendacoes_usuario)
